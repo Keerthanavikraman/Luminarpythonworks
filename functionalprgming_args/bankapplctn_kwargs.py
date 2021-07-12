@@ -2,7 +2,8 @@ users={
     1000:{"account_num":1000,"password":"user1","balance":3000},
     1001:{"account_num":1001,"password":"user2","balance":4000},
     1002:{"account_num":1002,"password":"user3","balance":5000},
-    1003:{"account_num":1003,"password":"user4","balance":6000}
+    1003:{"account_num":1003,"password":"user4","balance":6000},
+    1004:{"account_num":1004,"password":"user5","balance":7000}
 }
 
 
