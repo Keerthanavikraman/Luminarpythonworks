@@ -1,0 +1,40 @@
+#for displaying content html
+
+
+<!DOCTYPE html>         #specifies version of html
+<html lang="en">        #attribute of html (lang="en")
+<head>
+    <meta charset="UTF-8">          #additional information
+    <title>Title</title>
+</head>
+<body>                 #contents to display
+<!--comment-->
+<!--inside comment-->
+
+
+</body>
+</html>
+
+
+
+
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luminar</title>
+</head>
+<body>
+<!--comment-->
+
+<!--this is a comment-->
+<!-- heading tag h1,h2,h3,h4,h5,h6-->
+
+<h1>luminar technolab</h1>
+<h3>journey</h3>
+
+
+</body>
+</html>
