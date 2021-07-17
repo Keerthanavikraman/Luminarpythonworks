@@ -1,5 +1,10 @@
 #for displaying content html
+hypertext markup langauage
 
+<>opening tah
+</>closing tag
+
+for content click "lorem"
 
 <!DOCTYPE html>         #specifies version of html
 <html lang="en">        #attribute of html (lang="en")
