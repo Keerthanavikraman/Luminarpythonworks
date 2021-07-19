@@ -1,0 +1,44 @@
+/* element can be selected by either tagname/classname/id{
+    propert1:value1;
+    propert2:value2;
+    propert3:value3;
+ }  */
+ 
+body{
+    background-color: #f0f2f5;
+    /* hexadecimal value */
+}
+
+
+
+h1{
+    color:#1877f2;
+    /* primary colors */
+    text-align: center;
+}
+
+#hone{
+    
+    color:hsl(270, 40%, 50%);
+    /* h(hue 0-360)s(saturation-0%-100%)l(lightness-0%-100%) */
+
+}
+/* h1 tag selector .... hone id selector(#) ....
+with id selector give a # i.e,#hone*/
+
+
+.btn{
+    width: 90px;
+    height:40px;
+    background-color:#5e068a;
+    color:white
+}
+/* class selector (.) */
+
+button{
+    width: 120px;
+    height:40px;
+    background-color:white
+    color:#5e068a;
+}
+
