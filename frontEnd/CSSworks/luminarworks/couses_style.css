@@ -1,0 +1,81 @@
+body{
+    background-color: #f5f5f5;
+}
+
+
+.row{
+    float:left;
+    width: 30%;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    /*  inorder this border can be given in a single line  */
+    /* border: 2px solid black; */
+    border: solid tomato 2px;
+    min-height: 600px;
+    background-color: #fbfbfb;
+    margin-left: 10px;
+}
+
+.row img{
+    width:100%;
+
+}
+/* css unit .. a % value..% is always relative..
+it always depend on a parent */
+
+/* % is relative type */
+/* px pixel is absolute positioning */
+
+
+.row h3{
+    color: #5e068a;
+    padding: 20px;
+}
+
+
+.row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-1{
+    position: absolute;
+    top:50%;
+
+    width:50%;
+    background-color: turquoise;
+    height: 200px;
+}
+
+.section-2{
+position: absolute;
+top:70%;
+
+    width:600px;
+    height: 200px;
+    background-color: yellow;
+} */

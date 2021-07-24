@@ -1,0 +1,57 @@
+body{
+    height: 1500px;
+}
+
+
+
+.row{
+    width: 600px;
+    height: 400px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.col{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    left: 10%;
+    top: 
+    bottom: ;
+    right: ;
+} 
+
+.section{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    /* left: 100%; */
+}
+
+/* position:static,relative,absolute,fixed,sticky */
+/* absolute is free float depends on outermost parent */
+/* relative moves depend on relative element */
+/* fixed:it is fixed in a position */
+/* sticky:fixed at top,left,right,bottom */
+.row-1{
+    width: 600px;
+    height: 200px;
+    background-color:blueviolet;
+    position:fixed;
+    left: 70%
+    ;
+    
+}
+
+
+.stk{
+    width: 70%;
+    height: 100px;
+    background-color: darkred;
+    position:sticky;
+    top:5px;
+}
+
+
