@@ -1,0 +1,30 @@
+body{
+    height: 1500px;
+}
+
+.div1{
+    position: sticky;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.div2{
+    position: sticky;
+    top: 10px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(73, 226, 43);
+}
+
+
+.div3{
+    position: sticky;
+    top: 10px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 101, 43);
+}

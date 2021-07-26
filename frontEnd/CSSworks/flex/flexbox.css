@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .row{
     width: 70%;
     height: 400px;
@@ -34,7 +38,7 @@
 
 
 .col:nth-child(1){
-    flex: 100;
+    flex: 2;
     /* if we give flex 2 ,the it takes more width */
     background-color:crimson;
 }
@@ -57,3 +61,45 @@ background-color: darkgreen;
 
 /* if we give flex to 3rd and 4th child it will 
 share the space a give that color */
+
+
+header{
+    width:100%;
+    background-color:cornflowerblue;
+    padding:25px;
+}
+   
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+/* div a{} */
+
+.container a{
+   padding: 10px;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    margin-right: 80px; 
+    color:white;
+    font-weight: bold;
+}
+
+
+.container a:hover{
+    background-color: rgba(245,231,230,0.5);
+}
+
+/* .container a:hover */
+/* pseudo classes */
+
+
+
+.section{
+    width: 200px;
+    border:1px solid black;
+}
+
+.section input{
+    width: 100%;
+}
