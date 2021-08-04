@@ -18,7 +18,7 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1500px;
     background:#fff;
     margin: 50px;
     display: grid;
@@ -71,15 +71,20 @@ object-fit: cover;
     font-weight: 300;
 }
 
-.contactInfo{
-    padding-top: 5px;
+ .contactInfo {
+    padding-top: 1px;
+    font-size: 0.9em;
+    font-weight: 200;
 }
 .title{
+    padding-top: 1px;
+    font-size: 1.5em;
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .contactInfo ul{
@@ -104,28 +109,255 @@ object-fit: cover;
     margin-bottom: 20px;
 }
 
+.contactInfo1{
+    padding-top: 1px;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+.title1{
+    padding-top: 1px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
+.contactInfo1 ul{
+    position: relative;
+}
+.contactInfo1 ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
 
+.contactInfo1 ul li .icons1{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #eff5f8;
+}
+.contactInfo1 ul li .text1{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+ 
 
+.contactInfo2{
+    padding-top: 1px;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+.title2{
+    padding-top: 1px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
+.contactInfo2 ul{
+    position: relative;
+}
+.contactInfo2 ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
 
+.contactInfo2 ul li .icons2{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #eff5f8;
+}
+.contactInfo2 ul li .text2{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+ 
 
+.contactInfo3{
+    padding-top: 1px;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+.title3{
+    padding-top: 1px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+     text-align: left; 
+    margin-left: 5.5%;
+    
+}
 
+.contactInfo3 ul{
+    position: relative;
+}
+.contactInfo3 ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
 
+.contactInfo3 ul li .text3{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 
+.contactInfo3 .percent{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: rgb(12, 12, 12);
+    display: block;
+    margin-top: 5px;
 
+}
 
-
-
-
-
-
-
-
+.contactInfo3 .percent div{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background: #03a9f4;
+}
 
 .container .right_side{
     position: relative;
     background:#fff ;
     padding: 40px;
+}
 
+.about{
+margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title4{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 100;
+    margin bottom: 10px;
+}
+
+p{
+color:black;
+font-size: 1.4em;
+ font-weight: 200;
+}
+
+.contactInfo4 li{
+margin-bottom:5px ;
+padding: -0.5px;
+}
+
+.title5{
+    color: #003147;
+    letter-spacing: 100;
+    margin bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+.contactInfo4 h5{
+    color: #03a9f4;
+    font-weight: 2000;
+    margin-bottom:1px ;
+    font-size: 1em;
+}
+
+.contactInfo4 h4:nth-child(2){
+    color:#333;
+    font-weight: 900;
+    margin-bottom:1px ;
+    font-size: 1em;
+}
+
+.contactInfo4 h4:nth-child(3){
+color: #333;
+font-weight: 900;
+margin-bottom:1px ;
+font-size: 1em;
+}
+.contactInfo4 h4{
+    color:#333;
+    font-weight: 900;
+    margin-bottom:1px ;
+    font-size: 1em;
+}
+.p2{
+    font-size: 1.4em;
+     font-weight: 200;
+    }
+
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    text transform: uppercase;
+    color:black;
+    font-weight:500;
+}
+
+.skills .box .percent{
+position: relative;
+width: 100%;
+height: 10px;
+background: #f0f0f0;
+}
+
+.skills .box .percent div{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background: #03a9f4;
+}
+
+.contactInfo ul li .icon7{
+    display: inline-block;
+    width: 40px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li .text7{
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.title7{
+    padding-top: 1px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: left; 
+    margin-left: 5.5%;
 }
