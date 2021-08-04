@@ -1,0 +1,65 @@
+body{
+    background-color: cyan;
+}
+.fxd{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    position: fixed;
+    left: 80%;
+    top: 5%;
+}
+
+.row{
+width: 70%;
+background-color: rgb(14, 207, 207);
+display: flex;
+justify-content: space-evenly;
+}
+
+.col{
+    width: 150px;
+    min-height: 200px;
+}
+
+.col:nth-child(1){
+    background-color: blue;
+}
+
+.col:nth-child(2){
+    background-color: rgb(68, 189, 52);
+}
+
+.col:nth-child(3){
+    background-color: rgb(201, 204, 52);
+}
+
+/* lg md sm xs */
+
+
+
+@media (max-width:400px) {
+
+/* .row{
+    background-color: coral;
+} */
+ .row{
+    flex-direction: column; 
+    align-items: center;
+} 
+.col{
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+}
+body{
+    background-color: rgb(65, 61, 61);
+}
+.col h3{
+    color: white;
+    text-align: center;
+}
+.fxd{
+    position: static;
+}
+}
